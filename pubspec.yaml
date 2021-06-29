@@ -1,7 +1,7 @@
 name: proste_shadow_clip
 description: Clip widget and draw shadow, which also follows the path of clip.
 version: 0.1.0
-homepage:
+homepage: https://github.com/xyhxx/proste_shadow_clip
 
 environment:
   sdk: ">=2.12.0 <3.0.0"
