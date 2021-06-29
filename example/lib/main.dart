@@ -7,7 +7,8 @@ import 'package:proste_shadow_clip/proste_shadow_clip.dart';
 
 void main() {
   runApp(MyApp());
-  SystemChrome.setPreferredOrientations([DeviceOrientation.portraitUp, DeviceOrientation.portraitDown]);
+  SystemChrome.setPreferredOrientations(
+      [DeviceOrientation.portraitUp, DeviceOrientation.portraitDown]);
   SystemUiOverlayStyle style = SystemUiOverlayStyle(
     statusBarColor: Colors.transparent,
   );
