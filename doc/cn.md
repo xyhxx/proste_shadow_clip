@@ -1,10 +1,10 @@
 # proste_shadow_clip
 
-Clip widget and draw shadow, which also follows the path of clip.
+使用clip裁剪widget并包裹阴影，阴影的裁剪路径也会遵循clipper的路径
 
 ## Usage
 
-> you can use <a href="https://github.com/xyhxx/flutter_bezier_curve">proste_bezier_curve</a> or <a href="https://github.com/lohanidamodar/flutter_custom_clippers">flutter_custom_clippers</a> to create clipper
+> 你可以使用 <a href="https://github.com/xyhxx/flutter_bezier_curve">proste_bezier_curve</a> or <a href="https://github.com/lohanidamodar/flutter_custom_clippers">flutter_custom_clippers</a> 创建 clipper
 
 ``` dart
 
@@ -18,7 +18,7 @@ ProsteShadowClip(
 
 ```
 
-If you have any suggestions or problems in used, welcome to <a href="https://github.com/xyhxx/proste_shadow_clip/issues">issues</a>,I will check and reply regularly.
+如果你在使用中有任何的问题或者建议，欢迎到 <a href="https://github.com/xyhxx/proste_shadow_clip/issues">issues</a>,我会在看到的第一时间进行回复.
 
 ```
 MIT License
