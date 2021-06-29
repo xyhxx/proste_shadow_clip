@@ -27,7 +27,6 @@ class ProsteShadowClip extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return CustomPaint(
-      key: key,
       painter: _ProsteShadowClipPainter(
         clipper: this.clipper,
         shadow: this.shadow,

@@ -6,6 +6,14 @@
 
 > 你可以使用 <a href="https://github.com/xyhxx/flutter_bezier_curve">proste_bezier_curve</a> or <a href="https://github.com/lohanidamodar/flutter_custom_clippers">flutter_custom_clippers</a> 创建 clipper
 
+| parameter | parameterType |
+| :-- | :---: |
+| child | Widget | 
+| shadow | List\<Shadow\> | 
+| clipper | CustomClipper\<Path\> |
+| repaint | bool? |
+| key | Key? |
+
 ``` dart
 
 ProsteShadowClip(

@@ -6,14 +6,31 @@ Clip widget and draw shadow, which also follows the path of clip.
 
 > you can use <a href="https://github.com/xyhxx/flutter_bezier_curve">proste_bezier_curve</a> or <a href="https://github.com/lohanidamodar/flutter_custom_clippers">flutter_custom_clippers</a> to create clipper
 
+| parameter | parameterType |
+| :-- | :---: |
+| child | Widget | 
+| shadow | List\<Shadow\> | 
+| clipper | CustomClipper\<Path\> |
+| repaint | bool? |
+| key | Key? |
+
 ``` dart
 
-ProsteShadowClip(
-  child: ...(widget),
-  shadow: [
-    ...BoxShadow(),
-  ],
-  clipper: ...(clipper),
+Center(
+  child: ProsteShadowClip(
+    child: Container(
+      width: 300,
+      height: 100,
+      color: Colors.pink,
+    ),
+    shadow: [
+      BoxShadow(
+        blurRadius: 5,
+        spreadRadius: 2,
+      ),
+    ],
+    clipper: MultipleRoundedCurveClipper(),
+  ),
 );
 
 ```
