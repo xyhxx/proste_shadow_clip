@@ -1,3 +1,5 @@
+<img src="https://raw.githubusercontent.com/xyhxx/program_preview/master/logo/shadow_clip.png" />
+
 # proste_shadow_clip
 
 使用clip裁剪widget并包裹阴影，阴影的裁剪路径也会遵循clipper的路径

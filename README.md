@@ -1,3 +1,5 @@
+<img src="https://raw.githubusercontent.com/xyhxx/program_preview/master/logo/shadow_clip.png" />
+Englist | <a href="https://github.com/xyhxx/proste_shadow_clip/blob/main/doc/cn.md">中文</a>
 # proste_shadow_clip
 
 Clip widget and draw shadow, which also follows the path of clip.
